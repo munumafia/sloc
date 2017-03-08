@@ -1,13 +1,17 @@
 {
   "name": "sloc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Displays the total number of lines of code for each programming language in directory",
   "main": "sloc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/munumafia/sloc"
+  },
+  "author": "Sean Grimes <sean@codemunkey.net>",
+  "license": "Apache-2.0",
   "dependencies": {
     "cli-table": "^0.3.1",
     "es6-promisify": "^5.0.0",
