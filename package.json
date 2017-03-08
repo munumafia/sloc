@@ -1,0 +1,16 @@
+{
+  "name": "sloc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sloc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "es6-promisify": "^5.0.0",
+    "optimist": "^0.6.1"
+  }
+}
