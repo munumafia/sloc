@@ -1,4 +1,3 @@
-import {Parser} from 'optimist';
 import {walkDirectory, WalkOptions} from './walker';
 import {csvToArray} from './utils';
 import {argv} from './options';
