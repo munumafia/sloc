@@ -20,7 +20,8 @@ const fileExtensions = {
     ".cshtml": "Razor",
     ".scss":   "Sass",
     ".ts":     "TypeScript",
-    ".html":   "HTML"
+    ".html":   "HTML",
+    ".cls":    "VB6"
 }
 
 export interface WalkOptions {
