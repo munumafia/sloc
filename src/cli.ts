@@ -16,9 +16,7 @@ export function displayResults(results: Map<string, number>) : void {
         .sort()
         .map(key => [key, results.get(key).toLocaleString()]);
 
-    let total = rows
-        .map(row => parseInt(row[1]))
-        .reduce(sum, 0);
+    let total = Array.from(results.values()).reduce(sum, 0);
 
     rows.push(['', `Total: ${total.toLocaleString()}`]);
     rows.forEach(row => table.push(row));
